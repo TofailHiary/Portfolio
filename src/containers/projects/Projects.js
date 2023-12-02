@@ -18,7 +18,7 @@ export default function Projects() {
     const getRepoData = () => {
       fetch("https://api.github.com/users/TofailHiary/repos", {
         headers: {
-          'Authorization': `token ${process.env.REACT_APP_GITHUB_TOKEN}`
+          'Authorization': `${process.env.REACT_APP_GITHUB_TOKEN}`
         }
       })
         .then(result => {

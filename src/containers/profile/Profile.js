@@ -18,7 +18,7 @@ export default function Profile() {
       const getProfileData = () => {
         fetch("https://api.github.com/users/TofailHiary", {
           headers: {
-            'Authorization': `token ${process.env.REACT_APP_GITHUB_TOKEN}`
+            'Authorization': `${process.env.REACT_APP_GITHUB_TOKEN}`
           }
         })
           .then(result => {
