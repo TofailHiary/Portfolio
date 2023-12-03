@@ -6,7 +6,7 @@
   font-size: 3rem;
   margin-bottom: 0px;
   margin-top: 0px;
-  text-align: center;
+ // text-align: center;
 }
 
 .software-skill-inline {
@@ -15,17 +15,97 @@
   margin-bottom: 20px;
 }
 
-.software-skill-inline > i {
+/*.software-skill-inline > i {
   color: $subTitle;
-}
+}*/
 
-.software-skill-inline > i:hover {
+/*.software-skill-inline > i:hover {
   color: $skillsColor;
-}
+}*/
 .software-skill-inline > p {
   color: $subTitle;
   font-size: 10px;
+  text-align: center;
 }
-.software-skill-inline > i:hover ~ p {
+/*.software-skill-inline > i:hover ~ p {
   color: $skillsColor;
+}*/
+/* Custom icon colors */
+.fa-robot {
+  color: #43B02A; /* Selenium's color */
+}
+
+.fa-mobile-alt {
+  color: #3B5998; /* Appium's color */
+}
+
+.fa-cogs {
+  color: #D24939; /* Jenkins' color */
+}
+
+.fa-tachometer-alt {
+  color: #F6931D; /* JMeter's color */
+}
+
+.fa-jira {
+  color: #0052CC; /* Jira's color */
+}
+
+.fa-microsoft {
+  color: #0078D7; /* Azure DevOps' color */
+}
+
+.fa-mail-bulk {
+  color: #FF6C2C; /* Postman's color */
+}
+
+.fa-git-alt {
+  color: #F05032; /* Git's color */
+}
+
+.fa-apple {
+  color: #000000; /* Xcode/Apple's color */
+}
+
+.fa-vial {
+  color: #8A2BE2; /* ISTQB's color */
+}
+
+.fa-java {
+  color: #007396; /* Java's color */
+}
+
+.fa-seedling {
+  color: #76B947; /* Cucumber's color */
+}
+
+.fa-database {
+  color: #F05032; /* Database's color */
+}
+@media (max-width: 768px) {
+
+  .dev-icons {
+    padding-left: 0;
+    list-style: none;
+    font-size: 3rem;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 400px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+  .dev-icons {
+    padding-left: 0;
+    list-style: none;
+    font-size: 3rem;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: center;
+  }
 }
