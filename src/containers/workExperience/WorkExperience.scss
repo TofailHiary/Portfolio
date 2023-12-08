@@ -26,6 +26,8 @@
 @media (max-width: 1380px) {
   .experience-heading {
     font-size: 40px;
+  }.experience-container {
+    margin-top: -2rem;
   }
 }
 
@@ -33,5 +35,19 @@
   .experience-heading {
     font-size: 30px;
     text-align: center;
+  }
+}
+@media (max-width: 400px) {
+  .experience-heading {
+    font-size: 10px;
+    text-align: center;
+  }
+  .experience-container {
+    display: grid;
+    //width: 90%;
+    //padding: 20px 10px;
+    //margin: 0px auto;
+    margin-top: -2rem;
+    font-size: small;
   }
 }
